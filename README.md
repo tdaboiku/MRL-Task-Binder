@@ -1,5 +1,4 @@
 # MRLTask
-This reposity contains all the files and Python code required to do the following task.
 
 Using data from Figure 17 of [this peer reviewed article](https://doi.org/10.1016/j.ijrmhm.2020.105467):
 1. Create a table using PostgreSQL,
