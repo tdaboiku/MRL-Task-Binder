@@ -3,10 +3,7 @@ export PGDATA=$HOME/pgsql/data
 mkdir -p "$PGDATA"
 pg_ctl initdb
 
-# Data cleaning
-python data_cleaning.py
-
 # Load in the data 
 pg_ctl start -l pglog
-psql -d postgres -f "MRLTask_SQL.sql"
+psql -d postgres -f "MRLTask_SQL"
 pg_ctl stop
