@@ -1,4 +1,4 @@
-DROP TABLE HfTaX
+DROP TABLE if exists HfTaX
 
 CREATE TABLE HfTaX(
 	Time decimal,
@@ -14,4 +14,4 @@ VALUES (0, 0, 0, 0, 0),
 		(1, 41.87, 227.65, 30.30, 32.06 )
 		
 	
-SELECT * FROM HfTaX
+SELECT * FROM HfTaX;
